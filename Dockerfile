@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY site /usr/share/nginx/html
+COPY site /var/www/html/
 COPY nginx.conf /etc/nginx/nginx.conf
